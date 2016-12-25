@@ -1,2 +1,4 @@
 # MancalaGamePlayer
-A Mancala game that features a simple command-line interface and computer players that utilize parallel move evaluation.
+A Mancala game that features parallel move evaluation. The game features three game modes: single-player, two-player, and AI game. Computer players utilize parallel search to determine the best move to make each turn. In doing so they assume that their opponent will also choose the best possible move. The parallel search mechanism has adjustable depth which is set when determining the difficulty level of the computer players. The difficulty level corresponds directly to the number of levels of the search space that the computer will evaluate each turn. For example, if the difficulty level is set to five then each turn the computer player will evaluate all possible combination of moves in the next five turns. The purpose of this project was to experiment with this parallel move evaluation. As such it features only a simple command-line user interface.
+
+I created this project for my CSC 375 Parallel Programming course in Fall 2016.
